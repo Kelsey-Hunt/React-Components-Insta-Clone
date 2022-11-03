@@ -4,10 +4,9 @@
   Look at each file to see what props need to be passed!
 */
 
-// Import the state hook
-import React from 'react';
-// Import the Posts (plural!) and SearchBar components, since they are used inside App component
-// Import the dummyData
+import React, { useState } from 'react';
+import { Posts } from './components/Posts/Post.js';
+import { SearchBar } from './components/SearchBar/SearchBar.js'
 import './App.css';
 
 const App = () => {
