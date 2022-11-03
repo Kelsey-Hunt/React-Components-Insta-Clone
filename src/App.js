@@ -1,9 +1,3 @@
-/* 
-  Start here and work your way down the nested components.
-  Not all files in the project need code added.
-  Look at each file to see what props need to be passed!
-*/
-
 import React, { useState } from 'react';
 import Posts  from './components/Posts/Posts';
 import SearchBar  from './components/SearchBar/SearchBar'
@@ -30,8 +24,6 @@ const App = () => {
     <div className='App'>
       <SearchBar />
       <Posts posts={posts} likePost={likePost} />
- 
-      {/* Check the implementation of each component, to see what props they require, if any! */}
     </div>
   );
 };
